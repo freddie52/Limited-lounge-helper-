@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/discord-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node bot.mjs",
+    "start": "node bot.mjs"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "@distube/ytdl-core": "^4.16.12",
+    "discord.js": "^14.16.3",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.1.1",
+    "play-dl": "^1.9.7",
+    "youtubei.js": "^17.2.0"
+  },
+  "private": true
+}
